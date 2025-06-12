@@ -27,7 +27,7 @@ pipeline {
               mvn sonar:sonar \
                 -Dsonar.projectKey=authapp \
                 -Dsonar.host.url=http://sonarqube:9000 \
-                -Dsonar.login=sqa_ed723ecaad45315bbb97486feacb6a5590e4e477
+                -Dsonar.login=sqsqu_6a90a3fc945b72f25decff32218dbecc3bb02e63
             '''
           }
         }
